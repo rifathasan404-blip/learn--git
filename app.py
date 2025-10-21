@@ -1,5 +1,9 @@
 a = "Hello, World!"
+b = "Hi, Rakib"
+
 z=a.split(",")
-print(z) # returns ['Hello', ' World!']
+w=b.split(",")
+print(z,w) # returns ['Hello', ' World!']
 
 print(len(z[1]))
+print(len(w[1]))
